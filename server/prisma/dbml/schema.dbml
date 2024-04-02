@@ -1,0 +1,10 @@
+//// ------------------------------------------------------
+//// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+//// ------------------------------------------------------
+
+Table projects {
+  id String [pk]
+  name String [not null]
+  image String [not null]
+  tilte String [not null]
+}
