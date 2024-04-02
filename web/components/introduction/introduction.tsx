@@ -11,8 +11,9 @@ export default function Introduction() {
       </h1>
       <span className='sm:text-6xl text-2xl font-bold'>Overview...</span>
       <p className='sm:w-3/5 w-full'>
-        I am 21 years old, studying and working in Da Nang city. I love quiet
-        places, like going out with friends, am introverted and overthingking
+        Tôi hiện nay là 21 tuổi, đang học tập và làm việc tại thành phố Đà Nẵng.
+        Tôi yêu sự yên tĩnh, thích đi chơi với bạn bè, tôi sống nội tâm và hay
+        overthingking, tôi không muốn công khai trên mạng xã hội (lowkey).
       </p>
       {/* <div className='flex sm:flex-row sm:gap-10 gap-8 flex-col items-center'>
         <SectionInViewRight className='w-64 h-80 rounded border p-4 shadow-md space-y-8'>
