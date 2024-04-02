@@ -7,7 +7,7 @@ import Introduction from '@/components/introduction/introduction';
 
 export default function Home() {
   return (
-    <main className='w-full h-full sm:px-0 px-2'>
+    <main className='w-full h-full sm:px-0 px-4'>
       <Header />
       <Banner />
       <div className='max-w-6xl mx-auto mb-10'>
