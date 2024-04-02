@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Blog1() {
   return (
-    <div className='flex flex-col items-center justify-center p-20'>
+    <div className='p-4 flex flex-col items-center justify-center sm:p-20'>
       <h1 className='text-3xl font-bold mr-auto mb-10'>
         Mình xin chia sẽ xíu ạ 🥰🥰
       </h1>
@@ -15,7 +15,7 @@ export default function Blog1() {
         <span className='text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500'>
           Bin
         </span>
-        . . Mình hy vọng bạn sẽ ăn uống nhiều, uống sữa và ngủ sớm một chút thì
+        . Mình hy vọng bạn sẽ ăn uống nhiều, uống sữa và ngủ sớm một chút thì
         bạn mới có thể tăng kí được (mình cũng chỉ muốn tốt cho bạn thôi, mong
         bạn đừng nghĩ mình d.ạy. bạn ạ {'><'} 😊). Cũng mong bạn cố gắng nhiều
         hơn nữa trong học tập, chăm chỉ hơn nữa nha (vì bạn học chậm ạ, mình
