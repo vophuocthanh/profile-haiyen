@@ -18,13 +18,21 @@ export function MobilePage({ className }: Props) {
           <SheetTrigger asChild>
             <AlignRight />
           </SheetTrigger>
-          <SheetContent side={side} className='flex flex-col gap-10 pt-10 w-56'>
+          <SheetContent side={side} className='flex flex-col gap-10 pt-10 w-64'>
             <Link
-              href='/blog'
-              className='hover:text-green-400 hover:underline text-3xl font-bold'
+              href='/'
+              className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-blue-400 to-pink-600'
             >
-              Blogs
+              Hải Yến
             </Link>
+            <div className='pl-6'>
+              <Link
+                href='/blog'
+                className='hover:text-green-400 hover:underline text-3xl font-bold'
+              >
+                Blogs
+              </Link>
+            </div>
             {/* <Link
               href='/project'
               className='hover:text-green-400 hover:underline text-3xl font-bold'

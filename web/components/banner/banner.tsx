@@ -61,7 +61,7 @@ export const Banner = () => {
           <span className='font-bold  tracking-wider px-4 py-2 bg-gradient-to-b from-blue-400 to-pink-600 text-white sm:text-2xl text-xl rounded inline-block'>
             Portfolio của bạn Hải Yến 😊
           </span>
-          <h1 className='my-4 sm:text-5xl text-3xl font-bold'>
+          <h1 className='my-4 sm:text-5xl text-2xl font-bold'>
             {`Hi! I'm Hải Yến`}{' '}
             <span
               className='txt-rotate'
@@ -73,7 +73,7 @@ export const Banner = () => {
               </span>
             </span>
           </h1>
-          <p className='sm:w-[67%] text-2xl font-medium'>
+          <p className='sm:w-[67%] sm:text-2xl text-lg font-medium'>
             Cuộc sống hàng ngày của <span className='font-bold'>Hải Yến</span>{' '}
             là một hành trình đầy màu sắc và ý nghĩa =)))). Bắt đầu mỗi buổi
             sáng bằng việc dậy thật sớm nếu có lịch học, và dậy thật muộn nếu
