@@ -37,7 +37,7 @@ export function CarouselPlugin() {
                   <Image
                     src={images[index]}
                     alt=''
-                    className='object-cover w-full h-full'
+                    className='object-cover sm:w-full sm:h-[36rem] w-full h-full'
                     width={500}
                     height={500}
                   />
