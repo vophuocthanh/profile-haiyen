@@ -59,7 +59,7 @@ export const Banner = () => {
       <SectionInViewUp className='sm:flex flex-col sm:flex-row justify-center items-center my-10 sm:my-24'>
         <div className='sm:w-3/5 space-y-4'>
           <span className='font-bold  tracking-wider px-4 py-2 bg-gradient-to-b from-blue-400 to-pink-600 text-white sm:text-2xl text-xl rounded inline-block'>
-            Portfolio của bạn Hải Yến 😊
+            Portfolio của Hải Yến cutee 😊
           </span>
           <h1 className='my-4 sm:text-5xl text-2xl font-bold'>
             {`Hi! I'm Hải Yến`}{' '}
