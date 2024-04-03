@@ -14,7 +14,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['siuu cute', 'Marketing'];
+  const toRotate = ['siuu cute', 'xinh gái ><', 'dịu dàng gơ'];
   const period = 2000;
 
   useEffect(() => {
@@ -77,8 +77,9 @@ export const Banner = () => {
             Cuộc sống hàng ngày của <span className='font-bold'>Hải Yến</span>{' '}
             là một hành trình đầy màu sắc và ý nghĩa =)))). Bắt đầu mỗi buổi
             sáng bằng việc dậy thật sớm nếu có lịch học, và dậy thật muộn nếu
-            không có lịch học sáng. Đến tối thì cô ấy học bài hoặc xem review
-            phim 🤣. Cô ấy rất lười uống sữa và hơi ốm chút xíu 😢.
+            không có lịch học sáng. Đến tối thì cô ấy học bài, lướt tóp tóp,
+            instagram, xem review phim 🤣. Cô ấy rất lười uống sữa và hơi ốm 1
+            xíu😢.
           </p>
           <div className='flex gap-4 items-center'>
             <Link
