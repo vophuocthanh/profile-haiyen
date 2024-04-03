@@ -18,7 +18,7 @@ import Image from 'next/image';
 
 export function CarouselPlugin() {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true, Animation: 'slide' })
+    Autoplay({ delay: 2000, stopOnInteraction: false, Animation: 'slide' })
   );
   const images = [Anh1, Anh2, Anh3, Anh4, Anh5, Anh6];
   return (
