@@ -5,7 +5,7 @@ import SectionInViewRight from '../SectionInVewRight';
 
 export default function Introduction() {
   return (
-    <div className='max-w-6xl mx-auto space-y-4'>
+    <SectionInViewRight className='max-w-6xl mx-auto space-y-4'>
       <h1 className='text-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-blue-400 to-pink-600'>
         Introduction
       </h1>
@@ -37,6 +37,6 @@ export default function Introduction() {
           </span>
         </SectionInViewRight>
       </div> */}
-    </div>
+    </SectionInViewRight>
   );
 }
