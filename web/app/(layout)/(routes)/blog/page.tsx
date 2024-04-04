@@ -30,7 +30,7 @@ export default function BlogPage() {
           </p> */}
         </Link>
         <Link
-          href='/'
+          href='/blog/2'
           className='w-[20rem] h-[24rem] rounded-bl-md rounded-br-md space-y-4 shadow-md hover:scale-105 border'
         >
           <Image src={two} alt='banner' className='w-full h-80 object-cover ' />
