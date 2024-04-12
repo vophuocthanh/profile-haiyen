@@ -3,9 +3,9 @@ import React from 'react';
 export default function Blog1() {
   return (
     <div className='p-4 flex flex-col items-center justify-center sm:p-20'>
-      <h1 className='text-3xl font-bold mr-auto mb-10'>
+      {/* <h1 className='text-3xl font-bold mr-auto mb-10'>
         Mình xin chia sẽ xíu ạ 🥰🥰
-      </h1>
+      </h1> */}
       <p>Blog 1</p>
       {/* <p>
         Hi bạn{' '}
@@ -31,10 +31,10 @@ export default function Blog1() {
         ạ (mình biết là bây giờ không thể, nhưng sau này hy vọng có cơ hội ạ
         🐧).
       </p> */}
-      <div className='ml-auto text-center mt-10'>
+      {/* <div className='ml-auto text-center mt-10'>
         <h1 className='text-3xl font-bold'>Kí gửi</h1>
         <span className='font-bold'>Bin (Bin là biệt danh của mình á😁)</span>
-      </div>
+      </div> */}
     </div>
   );
 }
