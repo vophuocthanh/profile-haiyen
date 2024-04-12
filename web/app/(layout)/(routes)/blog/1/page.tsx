@@ -6,7 +6,8 @@ export default function Blog1() {
       <h1 className='text-3xl font-bold mr-auto mb-10'>
         Mình xin chia sẽ xíu ạ 🥰🥰
       </h1>
-      <p>
+      <p>Blog 1</p>
+      {/* <p>
         Hi bạn{' '}
         <span className='text-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-blue-400 to-pink-600'>
           Hải Yến siuuu cute
@@ -29,7 +30,7 @@ export default function Blog1() {
         vọng sẽ có cơ hội ra quán cafe học bài cùng bạn, hoặc là đi đâu đó chơi
         ạ (mình biết là bây giờ không thể, nhưng sau này hy vọng có cơ hội ạ
         🐧).
-      </p>
+      </p> */}
       <div className='ml-auto text-center mt-10'>
         <h1 className='text-3xl font-bold'>Kí gửi</h1>
         <span className='font-bold'>Bin (Bin là biệt danh của mình á😁)</span>
