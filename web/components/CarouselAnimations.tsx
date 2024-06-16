@@ -1,12 +1,12 @@
 'use client';
-import * as React from 'react';
-import Autoplay from 'embla-carousel-autoplay';
 import Anh1 from '@/public/anh-1.jpg';
 import Anh2 from '@/public/anh-2.jpg';
 import Anh3 from '@/public/anh-3.jpg';
 import Anh4 from '@/public/anh-4.jpg';
 import Anh5 from '@/public/anh-5.jpg';
 import Anh6 from '@/public/anh-6.jpg';
+import Autoplay from 'embla-carousel-autoplay';
+import * as React from 'react';
 
 import { Card, CardContent } from '@/components/ui/card';
 import {
