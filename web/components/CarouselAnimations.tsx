@@ -1,10 +1,10 @@
 'use client';
-import Anh1 from '@/public/anh-1.jpg';
-import Anh2 from '@/public/anh-2.jpg';
-import Anh3 from '@/public/anh-3.jpg';
-import Anh4 from '@/public/anh-4.jpg';
-import Anh5 from '@/public/anh-5.jpg';
-import Anh6 from '@/public/anh-6.jpg';
+import anh1 from '@/public/anh-1.jpg';
+import anh2 from '@/public/anh-2.jpg';
+import anh3 from '@/public/anh-3.jpg';
+import anh4 from '@/public/anh-4.jpg';
+import anh5 from '@/public/anh-5.jpg';
+import anh6 from '@/public/anh-6.jpg';
 import Autoplay from 'embla-carousel-autoplay';
 import * as React from 'react';
 
@@ -18,9 +18,10 @@ import Image from 'next/image';
 
 export function CarouselPlugin() {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: false, Animation: 'slide' })
+    Autoplay({ delay: 2000, stopOnInteraction: false })
   );
-  const images = [Anh1, Anh2, Anh3, Anh4, Anh5, Anh6];
+  const images = [anh1, anh2, anh3, anh4, anh5, anh6];
+
   return (
     <Carousel
       plugins={[plugin.current]}
@@ -29,14 +30,14 @@ export function CarouselPlugin() {
       onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
-        {images.map((_, index) => (
+        {images.map((image, index) => (
           <CarouselItem key={index}>
             <div className='relative top-0'>
               <Card>
                 <CardContent className='flex items-center justify-center'>
                   <Image
-                    src={images[index]}
-                    alt=''
+                    src={image}
+                    alt={`carousel-image-${index}`}
                     className='object-cover sm:w-full sm:h-[36rem] w-full h-full'
                     width={500}
                     height={500}
